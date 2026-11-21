@@ -1,0 +1,273 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 24px 0 32px;
+  font-size: 0.85rem;
+  color: #aaa;
+}
+
+.breadcrumb a {
+  color: #aaa;
+  text-decoration: none;
+}
+
+.breadcrumb a:hover { color: #c8637a; }
+.breadcrumb span { color: #c8637a; }
+
+.product-detail-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-bottom: 80px;
+}
+
+.pd-image-wrap {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(200,99,122,0.2);
+}
+
+.pd-main-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
+.pd-badge {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: linear-gradient(135deg, #c8637a, #a84f65);
+  color: white;
+  padding: 5px 14px;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.pd-category {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #c8637a;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.pd-name {
+  font-size: 2rem;
+  color: #1a1a2e;
+  margin: 10px 0 14px;
+  line-height: 1.2;
+}
+
+.pd-rating {
+  color: #d4a853;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+
+.pd-rating span {
+  color: #888;
+  font-size: 0.85rem;
+  margin-left: 6px;
+}
+
+.pd-price-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.pd-price {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #c8637a;
+}
+
+.pd-orig {
+  font-size: 1.1rem;
+  color: #aaa;
+  text-decoration: line-through;
+}
+
+.pd-disc {
+  background: #e8f5e9;
+  color: #2e7d32;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+
+.pd-desc {
+  color: #666;
+  line-height: 1.8;
+  font-size: 0.95rem;
+  margin-bottom: 24px;
+}
+
+.pd-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.pd-shades {
+  margin-bottom: 24px;
+}
+
+.pd-try-on {
+  margin-bottom: 22px;
+}
+
+.pd-try-on-toggle {
+  padding: 10px 20px;
+  border: 1.5px solid #800020;
+  border-radius: 25px;
+  background: #fffafb;
+  color: #800020;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.pd-try-on-toggle:hover {
+  background: #800020;
+  color: white;
+}
+
+.shades-list {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.shade-btn {
+  padding: 7px 14px;
+  border: 2px solid #e0e0e0;
+  border-radius: 50px;
+  background: white;
+  font-size: 0.8rem;
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  transition: all 0.2s;
+  color: #555;
+}
+
+.shade-btn.active, .shade-btn:hover {
+  border-color: #c8637a;
+  color: #c8637a;
+  background: #fff0f3;
+}
+
+.pd-qty {
+  margin-bottom: 28px;
+}
+
+.qty-control {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  border: 1px solid #e0e0e0;
+  border-radius: 50px;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.qty-control button {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background: #f9f9f9;
+  font-size: 1.1rem;
+  cursor: pointer;
+  color: #333;
+  transition: background 0.2s;
+}
+
+.qty-control button:hover { background: #c8637a; color: white; }
+
+.qty-control span {
+  padding: 0 20px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: #333;
+}
+
+.pd-actions {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 28px;
+}
+
+.pd-add-btn {
+  flex: 1;
+  padding: 14px 24px;
+  font-size: 0.95rem;
+}
+
+.pd-wishlist-btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #e0e0e0;
+  background: white;
+  font-size: 1.1rem;
+  color: #aaa;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pd-wishlist-btn.active, .pd-wishlist-btn:hover {
+  border-color: #c8637a;
+  color: #c8637a;
+}
+
+.pd-features {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.pd-feat {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: #666;
+}
+
+.related-section {
+  padding: 20px 0 60px;
+}
+
+.related-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+@media (max-width: 768px) {
+  .product-detail-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+  .related-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .related-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#f7eaf0"/><stop offset="1" stop-color="#e4cad8"/></linearGradient><linearGradient id="lid" x2="0" y2="1"><stop stop-color="#49383f"/><stop offset="1" stop-color="#211b22"/></linearGradient></defs>
+  <rect width="400" height="400" rx="28" fill="url(#bg)"/><circle cx="92" cy="87" r="42" fill="#fff" opacity=".45"/><ellipse cx="202" cy="315" rx="120" ry="20" fill="#95737f" opacity=".19"/>
+  <g transform="rotate(-8 200 204)"><rect x="83" y="111" width="234" height="180" rx="19" fill="url(#lid)"/><rect x="95" y="123" width="210" height="153" rx="12" fill="#352a32"/><g stroke="#c89a80" stroke-width="2"><circle cx="132" cy="161" r="22" fill="#b17878"/><circle cx="182" cy="161" r="22" fill="#d6a86f"/><circle cx="232" cy="161" r="22" fill="#8e687c"/><circle cx="278" cy="161" r="18" fill="#e1c2a3"/><circle cx="132" cy="221" r="22" fill="#6d4e5e"/><circle cx="182" cy="221" r="22" fill="#c98585"/><circle cx="232" cy="221" r="22" fill="#e1b990"/><circle cx="278" cy="221" r="18" fill="#a77e91"/></g><text x="200" y="306" text-anchor="middle" font-family="Georgia,serif" font-size="10" letter-spacing="3" fill="#f0d7c0">ROSE GOLD</text></g>
+  <path d="M319 89l4 11 11 4-11 4-4 11-4-11-11-4 11-4z" fill="#caa45d"/>
+</svg>

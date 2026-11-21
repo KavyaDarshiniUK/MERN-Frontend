@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fff0f2"/><stop offset="1" stop-color="#e9cbd5"/></linearGradient><linearGradient id="compact" x2="1" y2="1"><stop stop-color="#d6b77c"/><stop offset=".5" stop-color="#b68e57"/><stop offset="1" stop-color="#85623d"/></linearGradient></defs>
+  <rect width="400" height="400" rx="28" fill="url(#bg)"/><circle cx="301" cy="92" r="48" fill="#fff" opacity=".4"/><ellipse cx="201" cy="318" rx="105" ry="19" fill="#9e6877" opacity=".19"/>
+  <circle cx="201" cy="199" r="111" fill="url(#compact)"/><circle cx="201" cy="199" r="96" fill="#f9e9dc"/><circle cx="201" cy="199" r="82" fill="#d88491"/><circle cx="201" cy="199" r="69" fill="#df98a1"/><g fill="#f7d0cf" opacity=".75"><ellipse cx="201" cy="161" rx="15" ry="28"/><ellipse cx="201" cy="237" rx="15" ry="28"/><ellipse cx="163" cy="199" rx="28" ry="15"/><ellipse cx="239" cy="199" rx="28" ry="15"/><circle cx="201" cy="199" r="19" fill="#f2bdba"/></g><text x="201" y="303" text-anchor="middle" font-family="Georgia,serif" font-size="10" letter-spacing="3" fill="#73503e">ROSE PETAL</text>
+  <path d="M87 102l4 10 10 4-10 4-4 10-4-10-10-4 10-4z" fill="#caa45d"/>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#fff1e8"/><stop offset="1" stop-color="#f0d5c8"/></linearGradient><linearGradient id="tube" x2="1"><stop stop-color="#e8ac8b"/><stop offset=".5" stop-color="#ffe2cf"/><stop offset="1" stop-color="#c9876c"/></linearGradient></defs>
+  <rect width="400" height="400" rx="28" fill="url(#bg)"/><circle cx="303" cy="90" r="47" fill="#fff" opacity=".42"/><ellipse cx="201" cy="328" rx="87" ry="16" fill="#a77966" opacity=".19"/>
+  <path d="M163 104q0-18 18-18h40q18 0 18 18v173l-24 31h-28l-24-31z" fill="url(#tube)" stroke="#cf9c81" stroke-width="3"/><path d="M163 104q0-18 18-18h40q18 0 18 18v32h-76z" fill="#fff2e9" opacity=".8"/><rect x="174" y="275" width="54" height="46" rx="7" fill="#d9b677"/><text x="201" y="190" text-anchor="middle" font-family="Georgia,serif" font-size="18" letter-spacing="2" fill="#724c40">CC</text><text x="201" y="211" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" letter-spacing="2" fill="#815f51">CREAM</text><text x="201" y="232" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#815f51">SPF 50</text>
+  <path d="M91 141l5 12 12 5-12 5-5 12-5-12-12-5 12-5zM301 243l4 9 9 4-9 4-4 9-4-9-9-4 9-4z" fill="#caa45d"/>
+</svg>
